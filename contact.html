@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css"/>
+  </head>
+  <body>
+    <header>
+     <!--toggle-->
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      
+      <nav class="navbar">
+          <a href="/index.html">Home</a>
+          <a href="/selling.html">Selling</a>
+          <a href="/buy.html">Buy</a>
+          <a href="/contact.html">Contact</a>
+      </nav>
+
+    </header>
+    <!--home section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Dream Realestate</h3>
+        <span>Easy & affordable</span>
+        <p></p>
+        <a href="/contact.html" class="btn">Contact Us</a>
+      </div>
+    </section>
+</head>
+<body>
+    
+  <!--Form section-->
+  <section></section>
+  <div class="container_form">
+      <div class="item">
+      <br>     
+      <h1>Please write this form for Booking</h1>
+      </div>          
+      <div class="item">
+      <form action="mailto:hpark110@my.centennialcollege.ca" method="post">
+      
+      <p>
+      <label for="fName"> <b>Name:</b></label>
+      <input class="space" id="fName" name="fName" size="400" tabindex="5" type="text" required="required">
+      </p>
+      <p>
+      <label for= "Number"><b>Number:</b></label> 
+      <input class="space"  id ="Number" name="Number" size="40" tabindex="3" type="text" required="required">
+      </p>
+      <p>
+      <label for= "E-mail"><b>E-mail:</b></label> 
+      <input class="space"  id ="E-mail" name="E-mail" size="40" tabindex="3" type="text" required="required">
+      </p>
+      
+      <p><b>1.What is your Gender?</b></p>
+      <p>
+      <input  type ="radio" id="F" value="F"name="Type">
+      <label for = "F">Femail</label>
+      <input class="space" type ="radio" id="M" value="M"name="Type">
+      <label for = "Mail">Mail</label>
+
+      <p><b>1.What do you want to buy or sell?</b></p>
+      <p>
+      <input  type ="radio" id="House" value="House"name="Type">
+      <label  for = "H">House</label>
+      <input class="space"  type ="radio" id="Condo/Appartment" value="Condo"name="Type">
+      <label for = "C/A">Condo/Appartment</label>
+      <input class="space" type ="radio" id="Building" value="Building"name="Type">
+      <label for = "B">Building</label>
+      <input class="space" type ="radio" id="Sharehouse" value="Sharehouse"name="Type">
+      <label for="S">Sharehouse</label> 
+      </p>
+                 
+      <p><b>2.How many bedrooms do you want?</b></p>
+      <p>
+      <input class="space" type ="radio" id="r1" value="r1"name="bedrooms">
+      <label  for = "r1"> 1 Bedroom</label>
+      <input class="space" type ="radio" id="r2" value="r2"name="bedrooms">
+      <label for = "r2"> 2 Bedrooms</label>
+      <input class="space" type ="radio" id="r3" value="r3"name="bedrooms">
+      <label for = "r3"> 3 Bedrooms</label>
+      <input class="space" type ="radio" id="r4" value="r4"name="bedrooms">
+      <label for = "r1"> 4 Bedrooms</label>
+      </p>
+
+      <p><b>3.How many bathrooms do you want?</b></p>
+      <p>
+      <input class="space" type ="radio" id="br1" value="br1"name="bathrooms">
+      <label for = "br1"> 1 Bathroom</label>
+      <input class="space" type ="radio" id="br2" value="br2"name="bathrooms">
+      <label  for = "br2"> 2 Bathroom</label>
+      <input class="space" type ="radio" id="br3" value="br3"name="bathrooms">
+      <label  for = "br3"> 3 Bathroom</label>
+      <input  type ="radio" id="br4" value="br4"name="bedrooms">
+      <label for = "N2"> 4 Bathroom</label>
+      </p>
+      <p><b>4.How to use it</b></p>
+      <p>
+      <input class="space" type ="radio" id="u1" value="u1"name="Use">
+      <label for = "u1"> Buy</label>
+      <input class="space" type ="radio" id="u2" value="u2"name="Use">
+      <label for = "u2"> Sell</label>
+      <input class="space" type ="radio" id="u3" value="u3"name="Use">
+      <label for = "u3"> Rent</label>
+      </p>
+      <p><b>5. Price Range</b></p>
+      <p>
+          <input class="space" id="price" name="Price" size="10" type="text" tabindex="28"> ~  
+          <input class="space" id="price" name="Price" size="10" type="text" tabindex="30">
+      </p>
+      
+      <p><b>6.How do you know our company?</b></p>
+      <p>
+      <input class="space" type ="radio" id="k1" value="k1"name="know">
+      <label for = "k1">Internet Serching</label>
+      <input class="space" type ="radio" id="k2" value="k2"name="know">
+      <label for = "k2"> Blog/Social media</label>
+      <input class="space" type ="radio" id="k3" value="k3"name="know">
+      <label for = "k3"> Advertisingment</label>
+      <input class="space" type ="radio" id="k4" value="k4"name="know">
+      <label for = "k4"> Introduction from others</label>
+      </p>
+
+      <p>
+      <label for= "consult"> <b>What do you want to consult about?</b></label> 
+      <input class="space" id ="consult" name="consult" size="55" tabindex="3" type="text" required="required">
+      </p>
+              
+      <p>
+      <label for="other"><b>Other Questions:</b></label>
+      <br>
+      <br>
+      <textarea id="other" cols="60" name="other" rows="10" tabindex="37">---Please write down what you're curious about</textarea>
+      </p>
+      
+      </div> 
+
+      <div class="item">
+      <form>
+      <input class="btn" type="reset" value="Reset" name="Reset">
+      <input class="btn" type="submit" value="Submit" name="Submit">    
+      <br>
+      </form> 
+      </div>
+      
+  </div>
+<!--footer-->
+  <section></section>
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="/index.html">Home</a>
+        <a href="/selling.html">Selling</a>
+        <a href="/buy.html">Buy</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+
+      <div class="box">
+        <h3>location</h3>
+        <a href="#">USA</a>
+        <a href="#">CANADA</a>
+        <a href="#">France</a>
+        <a href="#">Korea</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact info</h3>
+        <a href="#">+1 568-554- 5454</a>
+        <a href="#">yyiou@gmail.com</a>
+        <a href="#">Toronto, New York </a>
+        <a href="#">Toronto, - 56489</a>
+        <img src="images/" alt="">
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>
